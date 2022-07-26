@@ -55,3 +55,37 @@ notification for the heated container)
 
 
 THE CRANE:
+
+- Each crane can lift one container at a time from the container ship.
+
+- Both cranes work simultaneously: one crane does not have to wait for the other to finish
+is. Both work completely independently of each other.
+
+- Wanneer een kraan een container uit het schip getakeld heeft, zet deze de container op de
+kade neer, gesteld dat op de kade genoeg plek is om de container neer te zetten.
+
+- When the ship is empty, the cranes stop working.
+
+- If there is no place on the quay to put the container down, the crane will have to
+wait for a spot to become available.
+
+- To distinguish one faucet from another, each faucet has a unique
+name.
+
+- As stated before, it will hoist out of the ship and put it on the quay of a
+container time cost. A tap takes a minimum of 1 minute and a maximum of 6 minutes
+(sometimes it is difficult to fasten the cables). To make sure that
+checking this statement does not take 350 minutes, we use it when programming
+the rule that 1 second counts for 1 minute. Handling a container programming
+so by having the random generator of Java generate a number that lies between the
+1000 and 6000 milliseconds.
+
+- A crane constantly makes clear what it is doing:
+    - When the crane removes a container from the ship, it reports this.
+    - When the crane has placed the container on the quay, the crane makes
+reporting of.
+
+
+THE KADE:
+
+
