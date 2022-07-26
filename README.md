@@ -89,3 +89,53 @@ reporting of.
 THE KADE:
 
 
+- The quay has room for a maximum of 5 containers.
+
+- The order in which containers are placed on the quay does not matter. If there's room,
+can a crane put down a container.
+
+- The order in which containers are picked up by the trucks does not matter.
+If there is a container on the quay, a truck can drive this container away.
+
+- The quay constantly makes clear how many containers are on the quay.
+
+
+THE TRUCKS:
+
+
+- Three trucks are driving around the port area.
+
+- If there is a container on the quay, it can be picked up by a truck
+and drove off.
+
+- The truck must check the type of container on the quay, and specific
+perform actions for special types of containers::
+
+    - For standard types, only print a notification on the screen showing the container
+is loaded on the truck
+    - For heated types, the container must be connected to the
+heating element and print a message to that effect on the screen that the
+container is connected to the heating element
+    - For refrigerated types, the container must be connected to the cooling element
+and print a notification on the screen that the container is associated with
+the cooling element (which is different from the message for the heated container)
+
+
+- Trucks, like the cranes, work simultaneously. So one truck doesn't have to go on
+the other waiting.
+
+- If no containers can be found on the quay, a truck waits until one is available
+is available.
+
+- A container driven away disappears from the model. So you don't have to program where
+this container eventually remains. The truck drives away with a container and comes empty
+back for the next.
+
+- A truck takes at least 1 minute to drive a container away.
+
+- Iedere vrachtwagen maakt voortdurend duidelijk wat deze aan het doen is:
+    - When the truck picks up a container, the truck gives a
+reporting of.
+    - When the truck has driven off a container, the truck gives a notification
+    - In order to distinguish one truck from another, each truck has
+a unique name.
