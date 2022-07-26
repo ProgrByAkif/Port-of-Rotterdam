@@ -46,3 +46,12 @@ type, a refrigerated container and a heated container. The way the containers
 be collected from the ship differs per type of container:
 
   - the standard type does not require any special handling when unloading,
+  - the heated container must first be disconnected from the heating elements (this
+must be made visible by means of a message on the screen),
+  - the refrigerated container must first be disconnected from the cooling elements (this must be
+be made visible through an on-screen message that is different from the
+notification for the heated container)
+
+
+
+THE CRANE:
