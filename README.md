@@ -23,3 +23,26 @@ does that take a little longer than the others
 
 - Every truck will spend some time driving away from a container. Also this
 some take a little longer than others.
+
+
+
+THE CONTAINERSHIP:
+
+- The container ship contains 100 containers. This, like other numbers used in this problem
+be used, which is not realistic.
+
+- When a container has been lifted from the ship, the ship reports this by sending a
+message on the screen.
+
+
+
+THE CONTAINERS:
+
+- To keep track of which container is used by which crane and which truck
+handled, each container has a unique tracking number.
+
+- There are 3 types of containers (distributed randomly on the container ships): a standard
+type, a refrigerated container and a heated container. The way the containers
+be collected from the ship differs per type of container:
+
+  - the standard type does not require any special handling when unloading,
