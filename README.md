@@ -10,3 +10,16 @@ THE MODEL:
 - Een containerschip is aangekomen in de Rotterdamse haven en ligt aan de kade.
 
 - Containers are removed from the ship using two cranes.
+
+- The cranes place containers on the quay, provided there is enough space to
+to place the container.
+
+- The containers placed on the quay are collected and driven away by three
+trucks. Please note, trucks do not use the cranes. containers
+are “picked up” by the trucks themselves.
+
+- Hoisting a container from the ship and placing it on the quay takes time. That one time
+does that take a little longer than the others
+
+- Every truck will spend some time driving away from a container. Also this
+some take a little longer than others.
